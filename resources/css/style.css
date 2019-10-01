@@ -3,13 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans",
+ "Lucida Sans Regular",
+ "Lucida Grande",
+    "Lucida Sans Unicode",
+ Geneva,
+ Verdana,
+ sans-serif;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -106,6 +112,7 @@ header nav div p {
   grid-template-rows: 500px;
   background: #b1acac;
 }
+
 .smashing-print {
   display: grid;
   grid-template-rows: 700px;
@@ -132,7 +139,7 @@ header nav div p {
 }
 
 .flatfile {
-  background: #555555;
+  background: #555;
   border-radius: 25px;
   margin: 100px 30px;
   height: 300px;
