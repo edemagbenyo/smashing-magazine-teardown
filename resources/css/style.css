@@ -3,14 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:
-    "Lucida Sans",
-    "Lucida Sans Regular",
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    Geneva,
-    Verdana,
-    sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 *,
@@ -28,13 +22,13 @@ header nav {
   color: #fff;
 }
 
-header nav div:first-child {
-  flex: 0;
+header nav div {
+  flex: 1;
   text-align: center;
 }
 
-header nav div {
-  flex: 1;
+header nav div:first-child {
+  flex: 0;
   text-align: center;
 }
 
