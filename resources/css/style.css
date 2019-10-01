@@ -1,0 +1,32 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Navigation */
+header nav{
+    background: #555;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color:#FFF;
+}
+header nav div:first-child{
+    flex:0;
+    text-align: center;
+}
+header nav div{
+    flex: 1;
+    text-align: center;
+}
+header nav div h2{
+    font-size: 35px;
+    margin:10px 0;
+}
+header nav div p{
+    font-size: 15px;
+    margin:10px 0;
+}
