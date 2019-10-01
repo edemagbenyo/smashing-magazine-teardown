@@ -1,32 +1,107 @@
 /* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 /* Navigation */
-header nav{
+header nav {
     background: #555;
     display: flex;
     justify-content: center;
-    padding: 100px;
-    color:#FFF;
+    padding: 50px;
+    color: #FFF;
 }
-header nav div:first-child{
-    flex:0;
+
+header nav div:first-child {
+    flex: 0;
     text-align: center;
 }
-header nav div{
+
+header nav div {
     flex: 1;
     text-align: center;
 }
-header nav div h2{
-    font-size: 35px;
-    margin:10px 0;
+
+header nav div h2 {
+    font-size: 30px;
+    margin: 10px 0;
 }
-header nav div p{
-    font-size: 15px;
-    margin:10px 0;
+
+header nav div p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.main-content {
+    width: 100%;
+    color: black;
+    position: relative;
+}
+
+.main-content h2 {
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin-top: 50px;
+    background: #6b6a6a;
+    padding: 20px;
+    color: white
+}
+
+.main-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+}
+
+.article1 {
+    background: #7d7a7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article2 {
+    background: #949090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article3 {
+    background: #656363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article4 {
+    background: #868383;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-articles p {
+    font-size: 40px;
+    font-weight: 300px;
+    padding: 20px;
+    color: white;
+}
+
+.latest-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px;
+    background: #b1acac;
 }
