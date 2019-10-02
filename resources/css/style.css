@@ -113,10 +113,18 @@ header nav div p {
   background: #b1acac;
 }
 
+.latest-post article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .smashing-print {
   display: grid;
   grid-template-rows: 700px;
   background: #b1acac;
+  justify-content: center;
+  align-items: center;
 }
 
 .latest-post article:nth-child(1) {
@@ -169,6 +177,12 @@ header nav div p {
   background: #656363;
 }
 
+.community article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .community article:nth-child(1) {
   background: #7d7a7a;
 }
@@ -188,6 +202,8 @@ header nav div p {
 .more {
   background: #868383;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 100%;
   grid-template-rows: 200px;
 }
@@ -212,4 +228,15 @@ footer {
 
 .links {
   background: #aaa;
+}
+
+.links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.links ul * {
+  flex: 1;
 }
