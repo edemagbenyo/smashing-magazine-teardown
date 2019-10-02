@@ -127,6 +127,19 @@ header nav div p {
   align-items: center;
 }
 
+.community {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 400px 400px;
+  background: #656363;
+}
+
+.community article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .latest-post article:nth-child(1) {
   background: #656363;
 }
@@ -168,19 +181,6 @@ header nav div p {
 
 .person div:first-child {
   background: #ddd;
-}
-
-.community {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 400px 400px;
-  background: #656363;
-}
-
-.community article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .community article:nth-child(1) {
